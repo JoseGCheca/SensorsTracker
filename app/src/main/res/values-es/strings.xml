@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Sensors Tracker</string>
+
+    <string name="hello_world">Hello world</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="service_name">ReadingSensors</string>
+    <string name="start_btn">Iniciar tracker</string>
+    <string name="stop_btn">Parar tracker</string>
+    <string name="txt_view_title_GPSTracker">Track GPS</string>
+    <string name="txt_view_title_accelerometer">Track acelerómetro</string>
+    <string name="edit_text_port_hint">Introduce el puerto</string>
+    <string name="edit_text_IP_hint">Introduce la IP</string>
+    <string name="Notification_subject">Monitorizando sensores</string>
+    <string name="action_library">Licencias</string>
+    <string name="EditPortPref">Introduce el puerto del server</string>
+    <string name="EditIPPref">Introduce la IP del server</string>
+    <string name="cat1TitlePref">Ajustes del servidor</string>
+    <string name="cat2TitlePref">Ajustes de sensores</string>
+    <string name="port">Puerto</string>
+    <string name="settings_summary">$1</string>
+    <string name="Notification_title">Sensors Tracker</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="cancel">Cancelar</string>
+    <string name="dialog_GPS_title">¿Activar localización GPS?</string>
+    <string name="dialog_sensors_unavailable">No hay ningún sensor activado</string>
+    <string name="cat3TitlePref">Ajustes del servicio GPS</string>
+    <string name="minTime">Tiempo mínimo</string>
+    <string name="minTimeSum">Intervalo de tiempo mínimo para las notificaciones en ms</string>
+    <string name="minDistance">Distancia mínima</string>
+    <string name="minDistanceSum">Intervalo de distancia mínimo para las notificaciones en metros</string>
+    <string name="seekbarDialog">Retardo del sensor</string>
+    <string name="seekbarSum">Introduce la velocidad del sensor</string>
+    <string name="seekbarTitle">Velocidad del sensor</string>
+    <string name="action_changelog">Lista de cambios</string>
+    <string name="license_description">Aplicación escrita por José G.C.</string>
+    <string name="changelog_full_title">Lista de cambios</string>
+    <string name="changelog_title">Novedades</string>
+    <string name="changelog_ok_button">OK</string>
+    <string name="changelog_show_full">Más…</string>
+    <string name="dialog_set_IP">Introduce una IP en el menú de ajustes</string>
+    <string name="dialog_set_port">Introduce un puerto en el menú de ajustes</string>
+    <string name="dialog_setIPPort">Introduce una IP y un puerto en el menú de ajustes </string>
+    <string name="stopServiceToast">No hay ningún servicio ejecutándose</string>
+</resources>

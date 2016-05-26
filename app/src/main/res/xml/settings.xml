@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/cat1TitlePref">
+        <EditTextPreference
+            android:key="IpOpcion"
+            android:title="IP"
+            android:summary="@string/EditIPPref"
+            />
+        <EditTextPreference
+            android:key="PortOpcion"
+            android:title="@string/port"
+            android:summary="@string/EditPortPref"
+            android:inputType="number"
+            />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/cat2TitlePref">
+        <com.jgcheca.sensorstracker.Preferences.SeekBarPreference
+            android:defaultValue="100"
+
+            android:dialogMessage="@string/seekbarDialog"
+            android:key="SEEKBAR_VALUE"
+            android:max="100"
+            android:summary="@string/seekbarSum"
+            android:text="%"
+            android:title="@string/seekbarTitle" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/cat3TitlePref">
+        <EditTextPreference
+            android:key="MinTimeOpcion"
+            android:title="@string/minTime"
+            android:summary="@string/minTimeSum"
+            android:inputType="number"
+            android:defaultValue="100"
+            />
+        <EditTextPreference
+            android:key="MinDistanceOpcion"
+            android:title="@string/minDistance"
+            android:summary="@string/minDistanceSum"
+            android:inputType="number"
+            android:defaultValue="1"
+            />
+    </PreferenceCategory>
+
+</PreferenceScreen>
